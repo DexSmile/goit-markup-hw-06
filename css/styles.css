@@ -235,15 +235,9 @@ body {
 }
 /*-----------------About--------------------*/
 
-.about {
-
-}
 .about-list {
     display: flex;
     gap: var(--card-set-gap);
-}
-.about-item {
-    
 }
 .about-item::before {
     content: '';
@@ -346,9 +340,6 @@ body {
     padding: 0 var(--padding-hero-btn-portfolio-card);
     gap: var(--card-set-gap);
 }
-.social-list-item {
-
-}
 .social-list-link {
     display: flex;
     justify-content: center;
@@ -432,9 +423,6 @@ body {
     display: flex;
     gap: 80px;
 }
-.footer-icon {
- 
-}
 .footer-icon-title {
     font-size: 16px;
     line-height: 24px;
@@ -445,9 +433,6 @@ body {
 .footer-list {
     display: flex;
     gap: 16px;
-}
-.footer-list-item {
-
 }
 .footer-list-link {
     display: flex;
@@ -463,18 +448,9 @@ body {
 .footer-list-link:hover,:focus {
     background-color: var(--footer-list-link);
 }
-.footer-subscribe {
-}
-.footer-subscribe-form {
-}
-.footer-form-subscribe-lable {
-    display: flex;
-    flex-direction: column;
-}
 .footer-subscribe-inline {
     display: flex;
     gap: 24px;
-    align-items: flex-end;
 }
 .footer-form-subtitle {
     font-weight: 500;
@@ -526,9 +502,6 @@ body {
 }
 .footer-subscribe-btn:hover,:focus {
     background-color: var(--hover-color);
-}
-.footer-subscribe-svg {
-    
 }
 
 /*-----------------Potfolio Section--------------------*/
@@ -646,7 +619,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 408px;
-    height: 584px;  
+    height: auto;  
     background-color: var(--modal-color);
     padding: 72px 24px 24px;
     border-radius: 4px;
@@ -693,6 +666,9 @@ body {
     color: var(--secondary-title-color);
     margin-bottom: 16px;
 }
+.modal-form-field {
+    margin-bottom: 8px;
+}
 .modal-form-input-desc {
     display: block;
     font-weight: 400;
@@ -717,7 +693,6 @@ body {
     box-shadow: none;
     font-size: 18px;
     transition: border var(--transition-duration) var(--trsition-function);
-    margin-bottom: 8px;
 }
 .modal-form-input:focus {
     border: 1px solid var(--button-color-portfolio);
@@ -727,7 +702,7 @@ body {
     position: absolute;
     left: 16px;
     top: 50%;
-    transform: translateY(-65%);
+    transform: translateY(-50%);
     color: var(--secondary-title-color);
     transition: fill var(--transition-duration) var(--trsition-function);
     width: 18px;
@@ -793,7 +768,7 @@ body {
     margin-left: 8px;
 }
 .privacy-policy {
-    color: #4D5AE5;
+    color: var(--button-color-portfolio);
 }
 .modal-form-submit {
     align-self: center;
